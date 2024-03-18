@@ -4,7 +4,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
+print("DayOneCompleted")
 print("DayTwoCompleted")
+
 driver.get("https://www.facebook.com")
 title = driver.title
 print(title)
